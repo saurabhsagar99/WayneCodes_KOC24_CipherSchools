@@ -37,5 +37,5 @@ def getDifference(dob, presentdate):
 dob= Date(23,2,2004)
 presentdate = Date(16,11,2022)
 
-print("no of days survived",getDifference(dob, presentdate))
+print("no of days survived",getDifference(dob, presentdate)
 
