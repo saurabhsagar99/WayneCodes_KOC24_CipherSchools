@@ -34,8 +34,12 @@ def getDifference(dob, presentdate):
 
 	return (n2 - n1)
 
-dob= Date(23,2,2004)
-presentdate = Date(16,11,2022)
+dob= input("Enter Your DOB as DD/MM/YYYY:")
+dob=[int(i) for i in dob.split("/")]
+dob=Date(dob[0],dob[1],dob[2])
+presentdate =input("Enter Present Day as DD/MM/YYYY:")
+presentdate=[int(i) for i in present.split("/")]
+presentdate=Date(presentdate[0],present[1],presentdate[2])
 
-print("no of days survived",getDifference(dob, presentdate))
+print("The no days person alive:",getDifference(dob,presentdate))
 
