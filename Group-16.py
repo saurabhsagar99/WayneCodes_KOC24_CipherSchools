@@ -42,4 +42,3 @@ presentdate=[int(i) for i in present.split("/")]
 presentdate=Date(presentdate[0],present[1],presentdate[2])
 
 print("The no days person alive:",getDifference(dob,presentdate))
-
