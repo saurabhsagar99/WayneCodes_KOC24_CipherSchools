@@ -44,5 +44,5 @@ PD=input("Enter Present Day as DD/MM/YYYYY : ")
 PD=[int(i) for i in PD.split("/")]
 PD=Date(PD[0],PD[1],PD[2])
 
-# Function call
+
 print("\nThe number of days the person is alive:",getDifference(dob, PD))
